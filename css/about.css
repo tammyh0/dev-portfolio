@@ -1,0 +1,64 @@
+
+/***** ABOUT *****/
+
+.about-content {
+  flex-direction: column;
+}
+
+.about-img {
+  margin-bottom: 4em;
+}
+
+.about-text {
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin: 1.2em 0;
+}
+
+
+
+/* Landscape phones and tablets */
+
+@media (min-width: 576px) {
+
+
+  /***** ABOUT *****/
+
+  .about-img {
+    margin: auto;
+    margin-bottom: 4em;
+    max-width: 65%;
+  }
+
+  .about-text {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+  }
+}
+
+
+
+/* Laptops and desktops */
+
+@media (min-width: 992px) {
+
+  /***** ABOUT *****/
+
+  .about-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-info {
+      width: 50%;
+  }
+
+  .about-img {
+      margin: auto 0;
+      width: 40%;
+  }
+
+  .about-text {
+      margin: 1em 0;
+  }
+}

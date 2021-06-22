@@ -1,0 +1,287 @@
+
+/***** GENERAL STYLES *****/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  font-style: normal;
+}
+
+img {
+  max-width: 100%;
+}
+
+h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+h3 {
+  font-size: 2.6rem;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+/***** COLOR STYLES *****/
+
+.dark-grey {
+  color: #333;
+}
+
+.dark-teal {
+  color: #00A8A8;
+}
+
+.light-grey {
+  color: #8B8B8B;
+}
+
+.light-teal {
+  color: #76CBCA;
+}
+
+.cocobot-bg-color {
+  background-color: #E2DAE5;
+}
+
+.expedia-bg-color {
+  background-color: #FFFCE8;
+}
+
+
+/***** FONT STYLES *****/
+
+.extra-light {
+  font-weight: 200;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+
+/***** TRANSITION STYLES *****/
+
+.color-transition {
+  transition: color 0.25s;
+}
+
+@keyframes transitionInOut {
+  0% {
+      opacity: 1;
+  }
+
+  50% {
+      opacity: 0;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+
+/***** GENERAL LAYOUT *****/
+
+.container {
+  margin: 0.5em auto;
+  max-width: 102em;
+  width: 90%;
+}
+
+main {
+  animation: transitionInOut 1s;
+  margin: 5em 0;
+}
+
+section {
+  margin: 4em 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.center-items {
+  align-items: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+
+/***** HEADER AND NAVIGATION *****/
+
+header {
+  margin: 2em 0;
+}
+
+.logo {
+  letter-spacing: 0.5rem;
+}
+
+.navbar {
+  flex-wrap: nowrap;
+}
+
+.navbar .active {
+  color: #333;
+}
+
+.navbar li {
+  margin-left: 1.4em;
+}
+
+.navbar a:hover {
+  color: #333;
+}
+
+.logo,
+.navbar a {
+  font-size: 1.4rem;
+}
+
+
+/***** FOOTER *****/
+
+.footer-info {
+  font-size: 1.2rem;
+}
+
+.contact-greeting {
+  margin-bottom: 0.4em;
+  font-size: 1.4rem;
+}
+
+.footer-email:hover {
+  color: #8B8B8B;
+}
+
+.footer-email:visited {
+  color: #333;
+}
+
+
+
+/* Landscape phones and tablets */
+
+@media (min-width: 576px) {
+
+
+  /***** GENERAL STYLES *****/
+
+  h2 {
+      font-size: 3rem;
+  }
+
+
+  /***** GENERAL LAYOUT *****/
+
+  .container {
+      width: 80%;
+  }
+
+  main {
+      margin: 6em 0;
+  }
+
+  section {
+      margin: 8em 0;
+  }
+
+
+  /***** HEADER AND NAVIGATION *****/
+
+  header {
+    margin: 4em 0;
+  }
+
+  .logo {
+    letter-spacing: 0.6rem;
+  }
+
+  .navbar li {
+    margin-left: 2em;
+  }
+
+  .logo,
+  .navbar a {
+      font-size: 1.6rem;
+  }
+
+
+  /***** FOOTER *****/
+
+  .footer-info {
+    font-size: 1.8rem;
+  }
+
+  .contact-greeting {
+    font-size: 2rem;
+  }
+}
+
+
+
+/* Laptops and desktops */
+@media (min-width: 992px) {
+
+
+  /***** GENERAL STYLES *****/
+
+  h2 {
+      font-size: 3rem;
+  }
+
+
+  /***** GENERAL LAYOUT *****/
+
+  section {
+      margin: 10em 0;
+  }
+}
