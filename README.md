@@ -1,1 +1,1 @@
-Live site: [https://tammy-portfolio-site.herokuapp.com/]
+Live site: https://tammy-portfolio-site.herokuapp.com/
