@@ -61,11 +61,11 @@ ul {
 }
 
 .cocobot-bg-color {
-  background-color: #E2DAE5;
+  background-color: #BB6BD9;
 }
 
 .expedia-bg-color {
-  background-color: #FFFCE8;
+  background-color: #F2C94C;
 }
 
 
@@ -152,6 +152,10 @@ section {
 
 .space-between {
   justify-content: space-between;
+}
+
+.wrap {
+  flex-wrap: wrap;
 }
 
 
