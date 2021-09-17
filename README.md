@@ -1,3 +1,1 @@
-# Live Site
-
-https://tammy-portfolio-site.herokuapp.com/
+Live Site: https://www.tammyhho.com/
