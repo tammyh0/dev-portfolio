@@ -18,7 +18,7 @@
 }
 
 .main-project {
-  margin: 4.6em 0;
+  margin: 8em 0;
 }
 
 .main-project-info {
@@ -76,6 +76,12 @@
 
 .other-projects {
   margin-top: 8em;
+}
+
+.other-project-title {
+  display: block;
+  margin-top: 0.4em;
+  margin-bottom: 0.6em;
 }
 
 .other-projects-info p {
@@ -138,7 +144,7 @@
   }
 
   .main-project {
-      margin: 6.2em 0;
+      margin-bottom: 10em;
   }
 
   .main-project-info {
@@ -252,5 +258,9 @@
   .other-project {
       margin: 1em 0;
       width: 48%;
+  }
+
+  .other-project-title {
+    display: none;
   }
 }
