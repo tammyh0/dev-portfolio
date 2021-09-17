@@ -21,15 +21,19 @@
   margin: 4.6em 0;
 }
 
-.main-project-info ul {
-  margin-bottom: 0.8em;
+.main-project-info {
+  margin-top: 1em;
 }
+
+/* .main-project-info ul {
+  margin-bottom: 0.8em;
+} */
 
 .tag {
   border-radius: 1em;
   display: inline-block;
   font-size: 1.2rem;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.8em;
   margin-right: 0.6em;
   padding: 0.2em 0.8em;
 }
@@ -37,6 +41,11 @@
 .stonks-simulator li {
   background-color: rgb(228, 249, 255);
   color: rgb(4, 95, 199);
+}
+
+.urban-market li {
+  background-color: #EEE6CA;
+  color: #416C4C;
 }
 
 .main-project-info p {
